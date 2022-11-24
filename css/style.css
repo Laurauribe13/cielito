@@ -143,8 +143,8 @@ header nav ul li a:hover{
 }
 
 .recetas div{
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -156,6 +156,7 @@ header nav ul li a:hover{
     font-size: 50px;
     font-weight: 200;
     font-style: normal;
+    text-align: center;
 }
 
 .recetas div iframe{
@@ -415,8 +416,13 @@ footer div h4{
     }
 
     .recetas div p{
-        font-size: 20px;
-        font-weight: 150;
+        font-size: 28px;
+        font-weight: 180;
+    }
+
+    .recetas div iframe{
+        width: 350px;
+        height: 250px;
     }
 
     .logo-footer a img{
@@ -491,7 +497,7 @@ footer div h4{
     }
 
     .recetas div p{
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 100;
     }
 
