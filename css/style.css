@@ -21,14 +21,17 @@ header{
 }
 
 header a img{
-    width: 230px;
-    height: 230px;
+    width: 160px;
+    height: 160px;
+    margin-left: 10px;
 }
 
 header nav ul{
     list-style: none;
     display: flex;
     text-align: center;
+    margin-bottom: 0px;
+    padding-left: 0px;
 }
 
 header nav ul li{
@@ -51,6 +54,7 @@ header nav ul li a:hover{
 .bolsa-compra img{
     width: 50px;
     height: 50px;
+    margin-right: 20px;
     transition: 2s;
 }
 
@@ -152,7 +156,7 @@ header nav ul li a:hover{
     align-items: center;
 }
 
-.recetas div p{
+.recetas div .frase-receta{
     color: black;
     font-size: 50px;
     font-weight: 200;
@@ -189,12 +193,15 @@ footer{
 
 .logo-footer a img{
     color: black;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
 }
 
 footer div ul{
     text-align: center;
+    margin-bottom: 0px;
+    padding-left: 0px;
 }
 
 footer div ul li{
@@ -209,9 +216,10 @@ footer div ul li a{
     text-decoration: none;
     font-size: 30px;
     font-weight: 300;
+    margin-left: 15px;
 }
 
-footer a img{
+footer .redes-sociales a img{
     width: 50px;
     height: 50px;
 }
@@ -222,6 +230,7 @@ footer div h3{
     font-weight: 600;
     font-style: normal;
     text-align: center;
+    margin-right: 5px;
     padding: 10px;
 }
 
@@ -231,14 +240,15 @@ footer div h4{
     font-weight: 500;
     font-style: normal;
     text-align: center;
+    margin-right: 5px;
 }
 
 /*----MEDIA QUERY----*/
 
 @media screen and (max-width:1029.33px){
     header a img{
-        width: 210px;
-        height: 210px;
+        width: 140px;
+        height: 140px;
     }
 
     .hero h1{
@@ -263,8 +273,8 @@ footer div h4{
     }
 
     .logo-footer a img{
-        width: 180px;
-        height: 180px;
+        width: 130px;
+        height: 130px;
     }
 
     footer div ul li a{
@@ -273,7 +283,7 @@ footer div h4{
         margin-right: 10px;
     }
 
-    footer a img{
+    footer .redes-sociales a img{
         width: 38px;
         height: 38px;
     }
@@ -290,8 +300,8 @@ footer div h4{
 
 @media screen and (max-width:890px){
     header a img{
-        width: 200px;
-        height: 200px;
+        width: 130px;
+        height: 130px;
     }
 
     header nav ul li a{
@@ -346,8 +356,8 @@ footer div h4{
     }
 
     .logo-footer a img{
-        width: 160px;
-        height: 160px;
+        width: 110px;
+        height: 110px;
     }
 
     footer div ul li a{
@@ -356,7 +366,7 @@ footer div h4{
         margin-right: 10px;
     }
 
-    footer a img{
+    footer .redes-sociales a img{
         width: 25px;
         height: 25px;
     }
@@ -366,15 +376,15 @@ footer div h4{
     }
 
     footer div h4{
-        font-size: 15px;
-        font-weight: 400;
+        font-size: 14px;
+        font-weight: 350;
     }
 }
 
 @media screen and (max-width:790px){
     header a img{
-        width: 160px;
-        height: 160px;
+        width: 120px;
+        height: 120px;
     }
 
     header nav ul li a{
@@ -422,13 +432,13 @@ footer div h4{
     }
 
     .recetas div iframe{
-        width: 350px;
-        height: 250px;
+        width: 400px;
+        height: 260px;
     }
 
     .logo-footer a img{
-        width: 130px;
-        height: 130px;
+        width: 90px;
+        height: 90px;
     }
 
     footer div ul li a{
@@ -437,83 +447,43 @@ footer div h4{
         margin-right: 15px;
     }
 
-    footer a img{
+    footer .redes-sociales a img{
         width: 25px;
         height: 25px;
     }
 
     footer div h3{
-        font-size: 15px;
+        font-size: 18px;
     }
 
     footer div h4{
         font-size: 13px;
-        font-weight: 300;
+        font-weight: 200;
     }
 }
 
-@media screen and (max-width:650px){
+@media screen and (max-width:615px){
     header a img{
-        width: 130px;
-        height: 130px;
+        width: 100px;
+        height: 100px;
     }
 
     header nav ul li a{
-        font-size: 14px;
-        font-weight: 160;
-    }
-
-    .bolsa-compra img{
-        width: 34px;
-        height: 34px;
-    }
-
-    .hero h1{
-        font-size: 35px;
-        font-weight: 400;
-        padding-left: 12px;
-    }
-
-    .productos h2{
-        font-size: 30px;
-    }
-
-    .productos .tarjetas-productos div{
-        width: 160px;
-        height: 200px;
-    }
-
-    .productos .tarjetas-productos div a{
-        font-size: 13px;
-        font-weight: 80;
-    }
-
-    .productos .tarjetas-productos div a img{
-        width: 155px;
-        height: 120px;
-    }
-
-    .recetas h2{
-        font-size: 30px;
-    }
-
-    .recetas div p{
-        font-size: 20px;
-        font-weight: 100;
+        font-size: 15px;
+        font-weight: 300;
     }
 
     .logo-footer a img{
-        width: 110px;
-        height: 110px;
+        width: 70px;
+        height: 70px;
     }
 
     footer div ul li a{
         font-size: 15px;
         font-weight: 150;
-        margin-right: 15px;
     }
 
-    footer a img{
+    footer .redes-sociales a img{
         width: 25px;
         height: 25px;
     }
@@ -523,53 +493,20 @@ footer div h4{
     }
 
     footer div h4{
-        font-size: 13px;
-        font-weight: 300;
-    }
-}
-
-@media screen and (max-width:548px){
-    .recetas div iframe{
-        width: 320px;
-        height: 250px;
-    }
-
-    .logo-footer a img{
-        width: 90px;
-        height: 90px;
-        margin-right: 5px;
-    }
-
-    footer div ul li a{
-        font-size: 13px;
-        font-weight: 80;
-        margin-right: 15px;
-    }
-
-    footer a img{
-        width: 15px;
-        height: 15px;
-    }
-
-    footer div h3{
-        font-size: 10px;
-    }
-
-    footer div h4{
-        font-size: 8px;
+        font-size: 11px;
         font-weight: 200;
     }
 }
 
-@media screen and (max-width:520px){
+@media screen and (max-width:510px){
     header a img{
-        width: 110px;
-        height: 110px;
+        width: 70px;
+        height: 70px;
     }
 
     header nav ul li a{
-        font-size: 11px;
-        font-weight: 400;
+        font-size: 13px;
+        font-weight: 250;
     }
 
     .bolsa-compra img{
@@ -577,33 +514,7 @@ footer div h4{
         height: 30px;
     }
 
-    .hero h1{
-        font-size: 32px;
-        font-weight: 300;
-        padding-left: 10px;
-    }
-
     .productos h2{
-        font-size: 30px;
-    }
-
-    .productos .tarjetas-productos div{
-        width: 160px;
-        height: 220px;
-        flex-direction: column;
-    }
-
-    .productos .tarjetas-productos div a{
-        font-size: 10px;
-        font-weight: 50;
-    }
-
-    .productos .tarjetas-productos div a img{
-        width: 155px;
-        height: 120px;
-    }
-
-    .recetas h2{
         font-size: 30px;
     }
 
@@ -611,61 +522,165 @@ footer div h4{
         flex-direction: column;
     }
 
+    .recetas h2{
+        font-size: 30px;
+    }
+
     .recetas div p{
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 150;
     }
 
-    .recetas div iframe{
-        width: 450px;
-        height: 350px;
-    }
-
-
     .logo-footer a img{
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
     }
 
     footer div ul li a{
         font-size: 13px;
-        font-weight: 100;
-        margin-right: 15px;
+        font-weight: 120;
     }
 
-    footer a img{
-        width: 20px;
-        height: 20px;
+    footer .redes-sociales a img{
+        width: 23px;
+        height: 23px;
     }
 
     footer div h3{
-        font-size: 9px;
+        font-size: 13px;
     }
 
     footer div h4{
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 150;
     }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:440px){
     header a img{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
     }
 
     header nav ul{
-        height: auto;
         flex-direction: column;
     }
 
     header nav ul li{
-        margin: 3px;
+        margin: 0px;
+        padding: 0px;
     }
 
     header nav ul li a{
-        font-size: 15px;
-        font-weight: 350;
+        font-size: 11px;
+        font-weight: 230;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .hero h1{
+        font-size: 35px;
+        font-weight: 200px;
+    }
+
+    .recetas div iframe{
+        width: 320px;
+        height: 250px;
+    }
+
+    .logo-footer a img{
+        width: 50px;
+        height: 50px;
+    }
+
+    footer div ul li a{
+        font-size: 9px;
+        font-weight: 80;
+    }
+
+    footer .redes-sociales a img{
+        width: 18px;
+        height: 18px;
+    }
+
+    footer div h3{
+        font-size: 12px;
+    }
+
+    footer div h4{
+        font-size: 8px;
+        font-weight: 130;
+    }
+}
+
+@media screen and (max-width:410px){
+    header a img{
+        width: 60px;
+        height: 60px;
+    }
+
+    header nav ul li a{
+        font-size: 10px;
+        font-weight: 220;
+    }
+
+    .bolsa-compra img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .productos h2{
+        font-size: 25px;
+    }
+
+    .recetas h2{
+        font-size: 25px;
+    }
+
+    .recetas div p{
+        font-size: 20px;
+        font-weight: 130;
+    }
+
+    .recetas div iframe{
+        width: 290px;
+        height: 230px;
+    }
+
+    .logo-footer a img{
+        width: 45px;
+        height: 45px;
+    }
+
+    footer div ul li a{
+        font-size: 8px;
+        font-weight: 70;
+    }
+
+    footer .redes-sociales a img{
+        width: 15px;
+        height: 15px;
+    }
+
+    footer div h3{
+        font-size: 11px;
+    }
+
+    footer div h4{
+        font-size: 7px;
+        font-weight: 120;
+    }
+}
+
+@media screen and (max-width:370px){
+    header a img{
+        width: 60px;
+        height: 60px;
+    }
+
+    header nav ul li a{
+        font-size: 10px;
+        font-weight: 220;
     }
 
     .bolsa-compra img{
@@ -674,126 +689,69 @@ footer div h4{
     }
 
     .hero h1{
-        font-size: 32px;
-        font-weight: 400;
-        padding-left: 10px;
-    }
-
-    .productos h2{
         font-size: 30px;
-    }
-
-    .productos .tarjetas-productos div{
-        width: 150px;
-        height: 180px;
-    }
-
-    .productos .tarjetas-productos div a{
-        font-size: 13px;
-        font-weight: 80;
-    }
-
-    .productos .tarjetas-productos div a img{
-        width: 145px;
-        height: 100px;
-    }
-
-    .recetas h2{
-        font-size: 30px;
-    }
-
-    .recetas div{
-        flex-direction: column;
-    }
-
-    .recetas div p{
-        font-size: 20px;
-        font-weight: 150;
-    }
-
-    .recetas div iframe{
-        width: 380px;
-        height: 300px;
-    }
-
-
-    .logo-footer a img{
-        width: 80px;
-        height: 80px;
-    }
-
-    footer div ul li a{
-        font-size: 13px;
-        font-weight: 80;
-        margin-right: 10px;
-    }
-
-    footer a img{
-        width: 20px;
-        height: 20px;
-    }
-
-    footer div h3{
-        font-size: 10px;
-    }
-
-    footer div h4{
-        font-size: 9px;
-        font-weight: 200;
-    }
-}
-
-@media screen and (max-width:490px){
-    .productos .tarjetas-productos div{
-        width: 220px;
-        height: 220px;
-    }
-
-    .productos .tarjetas-productos div a{
-        font-size: 15px;
-        font-weight: 100;
-    }
-
-    .productos .tarjetas-productos div a img{
-        width: 215px;
-        height: 130px;
+        font-weight: 150px;
     }
 
     .logo-footer a img{
-        width: 80px;
-        height: 80px;
+        width: 43px;
+        height: 43px;
     }
 
     footer div ul li a{
-        font-size: 13px;
-        font-weight: 80;
-        margin-right: 15px;
-    }
-
-    footer a img{
-        width: 15px;
-        height: 15px;
-    }
-
-    footer div h3{
-        font-size: 10px;
-    }
-
-    footer div h4{
         font-size: 8px;
-        font-weight: 200;
+        font-weight: 60;
+    }
+
+    footer .redes-sociales a img{
+        width: 13px;
+        height: 13px;
+    }
+
+    footer div h3{
+        font-size: 10px;
+    }
+
+    footer div h4{
+        font-size: 7px;
+        font-weight: 110;
     }
 }
 
-@media screen and (max-width:420px){
-    .logo-footer a img{
-        width: 70px;
-        height: 70px;
+@media screen and (max-width:345px){
+    header a img{
+        width: 55px;
+        height: 55px;
     }
 
-    footer a img{
-        width: 15px;
-        height: 15px;
+    header nav ul li a{
+        font-size: 9px;
+        font-weight: 210;
+    }
+
+    .bolsa-compra img{
+        width: 23px;
+        height: 23px;
+    }
+
+    .hero h1{
+        font-size: 25px;
+        font-weight: 120px;
+    }
+
+    .logo-footer a img{
+        width: 40px;
+        height: 40px;
+    }
+
+    footer div ul li a{
+        font-size: 7px;
+        font-weight: 50;
+    }
+
+    footer .redes-sociales a img{
+        width: 11px;
+        height: 11px;
     }
 
     footer div h3{
@@ -802,66 +760,7 @@ footer div h4{
 
     footer div h4{
         font-size: 7px;
-        font-weight: 150;
-    }
-}
-
-@media screen and (max-width:380px){
-    .recetas div iframe{
-        width: 320px;
-        height: 250px;
-    }
-
-    .logo-footer a img{
-        width: 60px;
-        height: 60px;
-    }
-
-    footer div ul li a{
-        font-size: 9px;
-        font-weight: 70;
-}
-}
-
-@media screen and (max-width:350px){
-    .recetas div p{
-        font-size: 18px;
-        font-weight: 140;
-    }
-
-    .recetas div iframe{
-        width: 250px;
-        height: 150px;
-    }
-
-    footer div ul li a{
-        font-size: 9px;
-        font-weight: 70;
-    }
-
-    footer a img{
-        width: 10px;
-        height: 10px;
-    }
-
-    footer div h3{
-        font-size: 7px;
-    }
-
-    footer div h4{
-        font-size: 6px;
-        font-weight: 100;
-    }
-}
-
-@media screen and (max-width:330px){
-    footer div h3{
-        font-size: 6px;
-    }
-
-    footer div h4{
-        font-size: 5px;
-        font-weight: 80;
+        font-weight: 105;
     }
 }
 
