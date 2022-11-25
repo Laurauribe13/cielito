@@ -121,13 +121,14 @@ header nav ul li a:hover{
 }
 
 .productos .tarjetas-productos div a img{
-    width: 400px;
+    width: 395px;
     height: 250px;
 }
 
 .productos .tarjetas-productos div a h3{
     display: inline-block;
     background-color: #D5B9B2;
+    margin-top: 8px;
     padding: 15px;
     border-radius: 10px;
 }
@@ -257,7 +258,7 @@ footer div h4{
     }
 
     .productos .tarjetas-productos div a img{
-        width: 300px;
+        width: 295px;
         height: 170px;
     }
 
@@ -324,7 +325,7 @@ footer div h4{
     }
 
     .productos .tarjetas-productos div a img{
-        width: 270px;
+        width: 265px;
         height: 170px;
     }
 
@@ -407,7 +408,7 @@ footer div h4{
     }
 
     .productos .tarjetas-productos div a img{
-        width: 180px;
+        width: 175px;
         height: 150px;
     }
 
@@ -451,14 +452,14 @@ footer div h4{
     }
 }
 
-@media screen and (max-width:630px){
+@media screen and (max-width:650px){
     header a img{
         width: 130px;
         height: 130px;
     }
 
     header nav ul li a{
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 160;
     }
 
@@ -478,8 +479,8 @@ footer div h4{
     }
 
     .productos .tarjetas-productos div{
-        width: 120px;
-        height: 160px;
+        width: 160px;
+        height: 200px;
     }
 
     .productos .tarjetas-productos div a{
@@ -488,8 +489,8 @@ footer div h4{
     }
 
     .productos .tarjetas-productos div a img{
-        width: 120px;
-        height: 100px;
+        width: 155px;
+        height: 120px;
     }
 
     .recetas h2{
@@ -527,6 +528,39 @@ footer div h4{
     }
 }
 
+@media screen and (max-width:548px){
+    .recetas div iframe{
+        width: 320px;
+        height: 250px;
+    }
+
+    .logo-footer a img{
+        width: 90px;
+        height: 90px;
+        margin-right: 5px;
+    }
+
+    footer div ul li a{
+        font-size: 13px;
+        font-weight: 80;
+        margin-right: 15px;
+    }
+
+    footer a img{
+        width: 15px;
+        height: 15px;
+    }
+
+    footer div h3{
+        font-size: 10px;
+    }
+
+    footer div h4{
+        font-size: 8px;
+        font-weight: 200;
+    }
+}
+
 @media screen and (max-width:520px){
     header a img{
         width: 110px;
@@ -554,18 +588,19 @@ footer div h4{
     }
 
     .productos .tarjetas-productos div{
-        width: 120px;
-        height: 160px;
+        width: 160px;
+        height: 220px;
+        flex-direction: column;
     }
 
     .productos .tarjetas-productos div a{
-        font-size: 13px;
-        font-weight: 80;
+        font-size: 10px;
+        font-weight: 50;
     }
 
     .productos .tarjetas-productos div a img{
-        width: 120px;
-        height: 100px;
+        width: 155px;
+        height: 120px;
     }
 
     .recetas h2{
@@ -588,8 +623,8 @@ footer div h4{
 
 
     .logo-footer a img{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     footer div ul li a{
@@ -604,12 +639,12 @@ footer div h4{
     }
 
     footer div h3{
-        font-size: 15px;
+        font-size: 9px;
     }
 
     footer div h4{
-        font-size: 13px;
-        font-weight: 300;
+        font-size: 8px;
+        font-weight: 150;
     }
 }
 
@@ -649,8 +684,8 @@ footer div h4{
     }
 
     .productos .tarjetas-productos div{
-        width: 120px;
-        height: 160px;
+        width: 150px;
+        height: 180px;
     }
 
     .productos .tarjetas-productos div a{
@@ -659,7 +694,7 @@ footer div h4{
     }
 
     .productos .tarjetas-productos div a img{
-        width: 120px;
+        width: 145px;
         height: 100px;
     }
 
@@ -683,14 +718,14 @@ footer div h4{
 
 
     .logo-footer a img{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     footer div ul li a{
         font-size: 13px;
-        font-weight: 100;
-        margin-right: 15px;
+        font-weight: 80;
+        margin-right: 10px;
     }
 
     footer a img{
@@ -699,19 +734,19 @@ footer div h4{
     }
 
     footer div h3{
-        font-size: 15px;
+        font-size: 10px;
     }
 
     footer div h4{
-        font-size: 13px;
-        font-weight: 300;
+        font-size: 9px;
+        font-weight: 200;
     }
 }
 
 @media screen and (max-width:490px){
     .productos .tarjetas-productos div{
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
     }
 
     .productos .tarjetas-productos div a{
@@ -720,7 +755,7 @@ footer div h4{
     }
 
     .productos .tarjetas-productos div a img{
-        width: 200px;
+        width: 215px;
         height: 130px;
     }
 
@@ -750,6 +785,27 @@ footer div h4{
     }
 }
 
+@media screen and (max-width:420px){
+    .logo-footer a img{
+        width: 70px;
+        height: 70px;
+    }
+
+    footer a img{
+        width: 15px;
+        height: 15px;
+    }
+
+    footer div h3{
+        font-size: 9px;
+    }
+
+    footer div h4{
+        font-size: 7px;
+        font-weight: 150;
+    }
+}
+
 @media screen and (max-width:380px){
     .recetas div iframe{
         width: 320px;
@@ -757,31 +813,55 @@ footer div h4{
     }
 
     .logo-footer a img{
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
     }
+
+    footer div ul li a{
+        font-size: 9px;
+        font-weight: 70;
+}
 }
 
-@media screen and (max-width:342px){
+@media screen and (max-width:350px){
     .recetas div p{
         font-size: 18px;
         font-weight: 140;
     }
 
     .recetas div iframe{
-        width: 300px;
-        height: 200px;
+        width: 250px;
+        height: 150px;
     }
 
     footer div ul li a{
         font-size: 9px;
         font-weight: 70;
-        margin-right: 13px;
     }
 
     footer a img{
-        width: 11px;
-        height: 11px;
+        width: 10px;
+        height: 10px;
+    }
+
+    footer div h3{
+        font-size: 7px;
+    }
+
+    footer div h4{
+        font-size: 6px;
+        font-weight: 100;
+    }
+}
+
+@media screen and (max-width:330px){
+    footer div h3{
+        font-size: 6px;
+    }
+
+    footer div h4{
+        font-size: 5px;
+        font-weight: 80;
     }
 }
 
