@@ -10,46 +10,49 @@ body{
 }
 
 /*-----HEADER-----*/
-header{
+header nav{
     background-color: #D5B9B2;
-    width: 100%;
-    height: 30vh;
+}
+
+header nav .container-fluid{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-header a img{
+header nav .container-fluid a img{
     width: 160px;
     height: 160px;
     margin-left: 10px;
+    margin-right: 80px;
 }
 
-header nav ul{
+header nav .navbar-nav ul{
     list-style: none;
     display: flex;
     text-align: center;
+    margin-left: 50px;
     margin-bottom: 0px;
     padding-left: 0px;
 }
 
-header nav ul li{
+header nav .navbar-nav ul li{
     display: inline-block;
     margin: 10px;
 }
 
-header nav ul li i{
+header nav .navbar-nav ul li i{
     font-size: 30px;
     font-weight: 30;
     transition: ease-in;
 }
 
-header nav ul li i:hover{
+header nav .navbar-nav ul li i:hover{
     color: rgb(92, 62, 121);
 }
 
-header nav ul li a{
+header nav .navbar-nav ul li a{
     text-decoration: none;
     color: black;
     font-size: 30px;
@@ -57,11 +60,11 @@ header nav ul li a{
     transition: ease-in;
 }
 
-header nav ul li a:hover{
+header nav .navbar-nav ul li a:hover{
     color: rgb(92, 62, 121);
 }
 
-.bolsa-compra img{
+/* .bolsa-compra img{
     width: 50px;
     height: 50px;
     margin-right: 15px;
@@ -70,13 +73,13 @@ header nav ul li a:hover{
 
 .bolsa-compra img:hover{
     transform: scale(1.1);
-}
+} */
 
 /*-----MAIN-----*/
 .hero{
     text-align: left;
     width: 100%;
-    height: 70vh;
+    height: 75vh;
     background-image: url(../img/panes-mensaje.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -256,25 +259,29 @@ footer div h4{
 /*----MEDIA QUERY----*/
 
 @media screen and (max-width:1029.33px){
-    header a img{
+    header nav .container-fluid a img{
         width: 135px;
         height: 135px;
     }
 
-    header nav ul li i{
+    header nav .navbar-nav ul{
+        flex-direction: column;
+    }
+
+    header nav .navbar-nav ul li i{
         font-size: 23px;
         font-weight: 23;
     }
 
-    header nav ul li a{
+    header nav .navbar-nav ul li a{
         font-size: 26px;
         font-weight: 540;
     }
 
-    .bolsa-compra img{
+    /* .bolsa-compra img{
         width: 35px;
         height: 35px;
-    }
+    } */
 
     .hero h1{
         font-size: 70px;
@@ -334,25 +341,25 @@ footer div h4{
 }
 
 @media screen and (max-width:890px){
-    header a img{
+    header nav .container-fluid a img{
         width: 125px;
         height: 125px;
     }
 
-    header nav ul li i{
+    header nav .navbar-nav ul li i{
         font-size: 23px;
         font-weight: 23;
     }
 
-    header nav ul li a{
+    header nav .navbar-nav ul li a{
         font-size: 23px;
         font-weight: 450;
     }
 
-    .bolsa-compra img{
+    /* .bolsa-compra img{
         width: 35px;
         height: 35px;
-    }
+    } */
 
     .hero h1{
         font-size: 60px;
@@ -422,24 +429,28 @@ footer div h4{
 }
 
 @media screen and (max-width:790px){
-    header a img{
+    header  nav .container-fluid a img{
         width: 110px;
         height: 110px;
     }
 
-    header nav ul li i{
+    header nav .navbar-nav ul li i{
         font-size: 18px;
         font-weight: 18;
     }
 
-    header nav ul li a{
+    header nav .navbar-nav ul li a{
         font-size: 20px;
         font-weight: 320;
     }
 
-    .bolsa-compra img{
+    /* .bolsa-compra img{
         width: 33px;
         height: 33px;
+    } */
+
+    .hero{
+        height: 80vh;
     }
 
     .hero h1{
@@ -508,17 +519,22 @@ footer div h4{
 }
 
 @media screen and (max-width:685px){
-    header a img{
+    header nav .container-fluid a img{
         width: 90px;
         height: 90px;
     }
 
-    header nav ul li i{
+    header nav button .navbar-toggler-icon{
+        width: 25px;
+        height: 25px;
+    }
+
+    header nav .navbar-nav ul li i{
         font-size: 15px;
         font-weight: 15;
     }
 
-    header nav ul li a{
+    header nav .navbar-nav ul li a{
         font-size: 16px;
         font-weight: 290;
     }
@@ -549,13 +565,9 @@ footer div h4{
 }
 
 @media screen and (max-width:585px){
-    header a img{
+    /* header a img{
         width: 80px;
         height: 80px;
-    }
-
-    header nav ul{
-        flex-direction: column;
     }
 
     header nav ul li i{
@@ -578,7 +590,7 @@ footer div h4{
     .bolsa-compra img{
         width: 30px;
         height: 30px;
-    }
+    } */
 
     .hero h1{
         font-size: 40px;
@@ -629,7 +641,7 @@ footer div h4{
 }
 
 @media screen and (max-width:450px){
-    header a img{
+    /* header a img{
         width: 70px;
         height: 70px;
     }
@@ -637,7 +649,7 @@ footer div h4{
     header nav ul li a{
         font-size: 15px;
         font-weight: 240;
-    }
+    } */
 
     .hero h1{
         font-size: 35px;
@@ -675,7 +687,7 @@ footer div h4{
 }
 
 @media screen and (max-width:410px){
-    header a img{
+    /* header a img{
         width: 65px;
         height: 65px;
     }
@@ -688,7 +700,7 @@ footer div h4{
     .bolsa-compra img{
         width: 24px;
         height: 24px;
-    }
+    } */
 
     .hero h1{
         font-size: 30px;
@@ -721,7 +733,7 @@ footer div h4{
 }
 
 @media screen and (max-width:355px){
-    header a img{
+    /* header a img{
         width: 60px;
         height: 60px;
     }
@@ -734,11 +746,11 @@ footer div h4{
     .bolsa-compra img{
         width: 25px;
         height: 25px;
-    }
+    } */
 
     .hero h1{
         font-size: 25px;
-        font-weight: 120px;
+        font-weight: 120;
     }
 
     .recetas div iframe{
