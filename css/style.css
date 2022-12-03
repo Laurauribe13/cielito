@@ -64,17 +64,6 @@ header nav .navbar-nav ul li a:hover{
     color: rgb(92, 62, 121);
 }
 
-/* .bolsa-compra img{
-    width: 50px;
-    height: 50px;
-    margin-right: 15px;
-    transition: 2s;
-}
-
-.bolsa-compra img:hover{
-    transform: scale(1.1);
-} */
-
 /*-----MAIN-----*/
 .hero{
     text-align: left;
@@ -160,7 +149,7 @@ header nav .navbar-nav ul li a:hover{
     margin-bottom: 50px;
 }
 
-.recetas div{
+.recetas .frase-receta{
     margin-right: 30px;
     margin-left: 30px;
     display: flex;
@@ -169,7 +158,7 @@ header nav .navbar-nav ul li a:hover{
     align-items: center;
 }
 
-.recetas div .frase-receta{
+.recetas .frase-receta p{
     color: black;
     font-size: 50px;
     font-weight: 200;
@@ -177,9 +166,19 @@ header nav .navbar-nav ul li a:hover{
     text-align: center;
 }
 
-.recetas div iframe{
-    margin-top: 20px;
-    margin-bottom: 40px;
+.recetas .carrusel{
+    width: 560px;
+    height: 380px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.recetas .carrusel iframe{
+    width: 560px;
+    height: 315px;
 }
 
 .whatsapp a img{
@@ -278,11 +277,6 @@ footer div h4{
         font-weight: 540;
     }
 
-    /* .bolsa-compra img{
-        width: 35px;
-        height: 35px;
-    } */
-
     .hero h1{
         font-size: 70px;
         font-weight: 600;
@@ -304,14 +298,9 @@ footer div h4{
         height: 170px;
     }
 
-    .recetas div p{
-        font-size: 40px;
-        font-weight: 230;
-    }
-
-    .recetas div iframe{
-        width: 500px;
-        height: 300px;
+    .recetas .frase-receta p{
+        font-size: 45px;
+        font-weight: 190;
     }
 
     .logo-footer a img{
@@ -356,11 +345,6 @@ footer div h4{
         font-weight: 450;
     }
 
-    /* .bolsa-compra img{
-        width: 35px;
-        height: 35px;
-    } */
-
     .hero h1{
         font-size: 60px;
         font-weight: 600;
@@ -390,9 +374,9 @@ footer div h4{
         font-size: 40px;
     }
 
-    .recetas div p{
-        font-size: 35px;
-        font-weight: 200;
+    .recetas .frase-receta p{
+        font-size: 40px;
+        font-weight: 180;
     }
 
     .whatsapp a img{
@@ -444,11 +428,6 @@ footer div h4{
         font-weight: 320;
     }
 
-    /* .bolsa-compra img{
-        width: 33px;
-        height: 33px;
-    } */
-
     .hero{
         height: 80vh;
     }
@@ -482,14 +461,9 @@ footer div h4{
         font-size: 35px;
     }
 
-    .recetas div p{
-        font-size: 28px;
+    .recetas .frase-receta p{
+        font-size: 35px;
         font-weight: 180;
-    }
-
-    .recetas div iframe{
-        width: 400px;
-        height: 260px;
     }
 
     .logo-footer a img{
@@ -539,6 +513,21 @@ footer div h4{
         font-weight: 290;
     }
 
+    .recetas .frase-receta p{
+        font-size: 32px;
+        font-weight: 170px;
+    }
+
+    .recetas .carrusel{
+        width: 530px;
+        height: 350px;
+    }
+
+    .recetas .carrusel iframe{
+        width: 530px;
+        height: 285px;
+    }
+
     .logo-footer a img{
         width: 70px;
         height: 70px;
@@ -565,33 +554,6 @@ footer div h4{
 }
 
 @media screen and (max-width:585px){
-    /* header a img{
-        width: 80px;
-        height: 80px;
-    }
-
-    header nav ul li i{
-        font-size: 14px;
-        font-weight: 14;
-    }
-
-    header nav ul li{
-        margin: 0px;
-        padding: 0px;
-    }
-
-    header nav ul li a{
-        font-size: 15px;
-        font-weight: 250;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .bolsa-compra img{
-        width: 30px;
-        height: 30px;
-    } */
-
     .hero h1{
         font-size: 40px;
         font-weight: 450;
@@ -602,17 +564,23 @@ footer div h4{
         font-size: 30px;
     }
 
-    .recetas div{
-        flex-direction: column;
-    }
-
     .recetas h2{
         font-size: 30px;
     }
 
-    .recetas div p{
-        font-size: 25px;
-        font-weight: 150;
+    .recetas .frase-receta p{
+        font-size: 24px;
+        font-weight: 160;
+    }
+
+    .recetas .carrusel{
+        width: 415px;
+        height: 320px;
+    }
+
+    .recetas .carrusel iframe{
+        width: 415px;
+        height: 255px;
     }
 
     .logo-footer a img{
@@ -641,24 +609,24 @@ footer div h4{
 }
 
 @media screen and (max-width:450px){
-    /* header a img{
-        width: 70px;
-        height: 70px;
-    }
-
-    header nav ul li a{
-        font-size: 15px;
-        font-weight: 240;
-    } */
-
     .hero h1{
         font-size: 35px;
         font-weight: 200px;
     }
 
-    .recetas div iframe{
-        width: 320px;
-        height: 250px;
+    .recetas .frase-receta p{
+        font-size: 21px;
+        font-weight: 150;
+    }
+
+    .recetas .carrusel{
+        width: 380px;
+        height: 320px;
+    }
+
+    .recetas .carrusel iframe{
+        width: 380px;
+        height: 255px;
     }
 
     .logo-footer a img{
@@ -687,24 +655,24 @@ footer div h4{
 }
 
 @media screen and (max-width:410px){
-    /* header a img{
-        width: 65px;
-        height: 65px;
-    }
-
-    header nav ul li a{
-        font-size: 13px;
-        font-weight: 230;
-    }
-
-    .bolsa-compra img{
-        width: 24px;
-        height: 24px;
-    } */
-
     .hero h1{
         font-size: 30px;
         font-weight: 150px;
+    }
+
+    .recetas .frase-receta p{
+        font-size: 18px;
+        font-weight: 140;
+    }
+
+    .recetas .carrusel{
+        width: 320px;
+        height: 320px;
+    }
+
+    .recetas .carrusel iframe{
+        width: 320px;
+        height: 255px;
     }
 
     .logo-footer a img{
@@ -733,29 +701,24 @@ footer div h4{
 }
 
 @media screen and (max-width:355px){
-    /* header a img{
-        width: 60px;
-        height: 60px;
-    }
-
-    header nav ul li a{
-        font-size: 10px;
-        font-weight: 220;
-    }
-
-    .bolsa-compra img{
-        width: 25px;
-        height: 25px;
-    } */
-
     .hero h1{
         font-size: 25px;
-        font-weight: 120;
+        font-weight: 125;
     }
 
-    .recetas div iframe{
+    .recetas .frase-receta p{
+        font-size: 15.7px;
+        font-weight: 135;
+    }
+
+    .recetas .carrusel{
         width: 290px;
-        height: 230px;
+        height: 300px;
+    }
+
+    .recetas .carrusel iframe{
+        width: 290px;
+        height: 235px;
     }
 
     .logo-footer a img{
@@ -1030,7 +993,6 @@ footer div h4{
 }
 
 .productos-completos .postres{
-    /* margin-right: 20px; */
     margin-bottom: 50px;
     margin-left: 10px;
     display: flex;
