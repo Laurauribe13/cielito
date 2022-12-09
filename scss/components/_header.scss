@@ -1,0 +1,52 @@
+@import "../base/variables";
+
+header{
+    background-color: $color-principal;
+    width: 100%;
+    height: auto;
+    nav{
+        .container-fluid{
+            @include flex (flex, row, space-around, center);
+            a{
+                img{
+                    width: 160px;
+                    height: 160px;
+                    margin-left: 10px;
+                    margin-right: 80px;
+                }
+            }
+            .navbar-nav{
+                ul{
+                    list-style: none;
+                    display: flex;
+                    text-align: center;
+                    margin-left: 50px;
+                    margin-bottom: 0px;
+                    padding-left: 0px;
+                    li{
+                        display: inline-block;
+                        margin: 10px;
+                        i{
+                            font-size: nth($font-size, 19);
+                            font-weight: nth($font-weight, 4);
+                            transition: ease-in;
+                            &:hover{
+                                color: $color-hover;
+                            }
+                        }
+                        a{
+                            text-decoration: none;
+                            color: $color-letra;
+                            font-size: nth($font-size, 19);
+                            font-weight: nth($font-weight, 33);
+                            transition: ease-in;
+                            &:hover{
+                                color: $color-hover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

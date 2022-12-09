@@ -1,0 +1,697 @@
+@import "./variables";
+
+//! MEDIA QUERY INDEX
+
+@media screen and (max-width:1029.33px){
+    header nav .container-fluid a img{
+        width: 135px;
+        height: 135px;
+    }
+
+    header nav .container-fluid .navbar-nav ul li i{
+        font-size: nth($font-size, 15);
+        font-weight: nth($font-weight, 3);
+    }
+
+    header nav .container-fluid .navbar-nav ul li a{
+        font-size: nth($font-size, 18);
+        font-weight: nth($font-weight, 31);
+    }
+
+    .hero h1{
+        font-size: nth($font-size, 26);
+        font-weight: nth($font-weight, 33);
+        padding-left: 25px;
+    }
+
+    .productos div .tarjetas-productos div{
+        width: 300px;
+        height: 250px;
+    }
+
+    .productos div .tarjetas-productos div a{
+        font-size: nth($font-size, 13);
+        font-weight: nth($font-weight, 16);
+    }
+
+    .productos div .tarjetas-productos div a img{
+        width: 295px;
+        height: 170px;
+    }
+
+    .recetas div .frase-receta p{
+        font-size: nth($font-size, 23);
+        font-weight: nth($font-weight, 20);
+    }
+
+    footer .logo-footer a img{
+        width: 130px;
+        height: 130px;
+    }
+
+    footer div ul li a{
+        font-size: nth($font-size, 13);
+        font-weight: nth($font-weight, 22);
+        margin-right: 10px;
+    }
+
+    footer .redes-sociales a img{
+        width: 38px;
+        height: 38px;
+    }
+
+    footer div h3{
+        font-size: nth($font-size, 13);
+    }
+
+    footer div h4{
+        font-size: nth($font-size, 9);
+        font-weight: nth($font-weight, 28);
+    }
+}
+
+@media screen and (max-width:991.5px){
+    header nav .container-fluid .navbar-nav ul{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:890px){
+    header nav .container-fluid a img{
+        width: 125px;
+        height: 125px;
+    }
+
+    header nav .container-fluid .navbar-nav ul li i{
+        font-size: nth($font-size, 15);
+        font-weight: nth($font-weight, 3);
+    }
+
+    header nav .container-fluid .navbar-nav ul li a{
+        font-size: nth($font-size, 15);
+        font-weight: nth($font-weight, 29);
+    }
+
+    .hero h1{
+        font-size: nth($font-size, 25);
+        font-weight: nth($font-weight, 33);
+        padding-left: 30px;
+    }
+
+    .productos div h2{
+        font-size: nth($font-size, 22);
+    }
+
+    .productos div .tarjetas-productos div{
+        width: 270px;
+        height: 250px;
+    }
+
+    .productos div .tarjetas-productos div a{
+        font-size: nth($font-size, 13);
+        font-weight: nth($font-weight, 16);
+    }
+
+    .productos div .tarjetas-productos div a img{
+        width: 265px;
+        height: 170px;
+    }
+
+    .recetas div h2{
+        font-size: nth($font-size, 22);
+    }
+
+    .recetas div .frase-receta p{
+        font-size: nth($font-size, 22);
+        font-weight: nth($font-weight, 19);
+    }
+
+    .whatsapp a img{
+        width: 40px;
+        height: 40px;
+        bottom: 1.8%;
+        right: 1%;
+    }
+
+    footer .logo-footer a img{
+        width: 110px;
+        height: 110px;
+    }
+
+    footer div ul li a{
+        font-size: nth($font-size, 13);
+        font-weight: nth($font-weight, 21);
+        margin-right: 10px;
+    }
+
+    footer .redes-sociales a img{
+        width: 25px;
+        height: 25px;
+    }
+
+    footer div h3{
+        font-size: nth($font-size, 13);
+    }
+
+    footer div h4{
+        font-size: nth($font-size, 8);
+        font-weight: nth($font-weight, 27);
+    }
+}
+
+@media screen and (max-width:790px){
+    header  nav .container-fluid a img{
+        width: 110px;
+        height: 110px;
+    }
+
+    header nav .container-fluid .navbar-nav ul li i{
+        font-size: nth($font-size, 12);
+        font-weight: nth($font-weight, 2);
+    }
+
+    header nav .container-fluid .navbar-nav ul li a{
+        font-size: nth($font-size, 13);
+        font-weight: nth($font-weight, 26);
+    }
+
+    .hero{
+        height: 80vh;
+    }
+
+    .hero h1{
+        font-size: nth($font-size, 24);
+        font-weight: nth($font-weight, 30);
+        padding-left: 15px;
+    }
+
+    .productos div h2{
+        font-size: nth($font-size, 21);
+    }
+
+    .productos div .tarjetas-productos div{
+        width: 180px;
+        height: 230px;
+    }
+
+    .productos div .tarjetas-productos div a{
+        font-size: nth($font-size, 9);
+        font-weight: nth($font-weight, 8);
+    }
+
+    .productos div .tarjetas-productos div a img{
+        width: 175px;
+        height: 150px;
+    }
+
+    .recetas div h2{
+        font-size: nth($font-size, 21);
+    }
+
+    .recetas div .frase-receta p{
+        font-size: nth($font-size, 21);
+        font-weight: nth($font-weight, 19);
+    }
+
+    footer .logo-footer a img{
+        width: 90px;
+        height: 90px;
+    }
+
+    footer div ul li a{
+        font-size: nth($font-size, 12);
+        font-weight: nth($font-weight, 19);
+        margin-right: 15px;
+    }
+
+    footer .redes-sociales a img{
+        width: 25px;
+        height: 25px;
+    }
+
+    footer div h3{
+        font-size: nth($font-size, 12);
+    }
+
+    footer div h4{
+        font-size: nth($font-size, 7);
+        font-weight: nth($font-weight, 21);
+    }
+}
+
+@media screen and (max-width:685px){
+    header nav .container-fluid a img{
+        width: 90px;
+        height: 90px;
+    }
+
+    header nav .container-fluid button .navbar-toggler-icon{
+        width: 25px;
+        height: 25px;
+    }
+
+    header nav .container-fluid .navbar-nav ul li i{
+        font-size: nth($font-size, 9);
+        font-weight: nth($font-weight, 1);
+    }
+
+    header nav .container-fluid .navbar-nav ul li a{
+        font-size: nth($font-size, 11);
+        font-weight: nth($font-weight, 24);
+    }
+
+    .recetas div .frase-receta p{
+        font-size: nth($font-size, 20);
+        font-weight: nth($font-weight, 18);
+    }
+
+    .recetas div .carrusel{
+        width: 530px;
+        height: 350px;
+    }
+
+    .recetas div .carrusel iframe{
+        width: 530px;
+        height: 285px;
+    }
+
+    footer .logo-footer a img{
+        width: 70px;
+        height: 70px;
+    }
+
+    footer div ul li a{
+        font-size: nth($font-size, 9);
+        font-weight: nth($font-weight, 16);
+    }
+
+    footer .redes-sociales a img{
+        width: 25px;
+        height: 25px;
+    }
+
+    footer div h3{
+        font-size: nth($font-size, 9);
+    }
+
+    footer div h4{
+        font-size: nth($font-size, 5);
+        font-weight: nth($font-weight, 21);
+    }
+}
+
+@media screen and (max-width:585px){
+    .hero h1{
+        font-size: nth($font-size, 22);
+        font-weight: nth($font-weight, 29);
+        padding-left: 13px;
+    }
+
+    .productos div h2{
+        font-size: nth($font-size, 19);
+    }
+
+    .recetas div h2{
+        font-size: nth($font-size, 19);
+    }
+
+    .recetas div .frase-receta p{
+        font-size: nth($font-size, 16);
+        font-weight: nth($font-weight, 17);
+    }
+
+    .recetas div .carrusel{
+        width: 415px;
+        height: 320px;
+    }
+
+    .recetas div .carrusel iframe{
+        width: 415px;
+        height: 255px;
+    }
+
+    footer .logo-footer a img{
+        width: 50px;
+        height: 50px;
+    }
+
+    footer div ul li a{
+        font-size: nth($font-size, 7);
+        font-weight: nth($font-weight, 11);
+    }
+
+    footer .redes-sociales a img{
+        width: 23px;
+        height: 23px;
+    }
+
+    footer div h3{
+        font-size: nth($font-size, 7);
+    }
+
+    footer div h4{
+        font-size: nth($font-size, 4);
+        font-weight: nth($font-weight, 16);
+    }
+}
+
+@media screen and (max-width:450px){
+    header nav .container-fluid a img{
+        margin-left: 0px;
+    }
+
+    header nav .container-fluid .navbar-nav ul{
+        margin-left: 10px;
+    }
+
+    .hero h1{
+        font-size: nth($font-size, 21);
+        font-weight: nth($font-weight, 21);
+    }
+
+    .recetas div .frase-receta p{
+        font-size: nth($font-size, 14);
+        font-weight: nth($font-weight, 16);
+    }
+
+    .recetas div .carrusel{
+        width: 380px;
+        height: 320px;
+    }
+
+    .recetas div .carrusel iframe{
+        width: 380px;
+        height: 255px;
+    }
+
+    footer div ul li a{
+        font-size: nth($font-size, 6);
+        font-weight: nth($font-weight, 7);
+    }
+
+    footer .redes-sociales a img{
+        width: 18px;
+        height: 18px;
+    }
+
+    footer div h3{
+        font-size: nth($font-size, 6);
+    }
+
+    footer div h4{
+        font-size: nth($font-size, 3);
+        font-weight: nth($font-weight, 13);
+    }
+}
+
+@media screen and (max-width:410px){
+    .hero h1{
+        font-size: nth($font-size, 19);
+        font-weight: nth($font-weight, 16);
+    }
+
+    .recetas div .frase-receta p{
+        font-size: nth($font-size, 12);
+        font-weight: nth($font-weight, 15);
+    }
+
+    .recetas div .carrusel{
+        width: 320px;
+        height: 320px;
+    }
+
+    .recetas div .carrusel iframe{
+        width: 320px;
+        height: 255px;
+    }
+
+    footer .logo-footer a img{
+        width: 43px;
+        height: 43px;
+    }
+
+    footer div ul li a{
+        font-size: nth($font-size, 3);
+        font-weight: nth($font-weight, 6);
+    }
+
+    footer .redes-sociales a img{
+        width: 13px;
+        height: 13px;
+    }
+
+    footer div h3{
+        font-size: nth($font-size, 4);
+    }
+
+    footer div h4{
+        font-size: nth($font-size, 2);
+        font-weight: nth($font-weight, 10);
+    }
+}
+
+@media screen and (max-width:355px){
+    .hero h1{
+        font-size: nth($font-size, 17);
+        font-weight: nth($font-weight, 12);
+    }
+
+    .recetas div .frase-receta p{
+        font-size: nth($font-size, 10);
+        font-weight: nth($font-weight, 14);
+    }
+
+    .recetas div .carrusel{
+        width: 290px;
+        height: 300px;
+    }
+
+    .recetas div .carrusel iframe{
+        width: 290px;
+        height: 235px;
+    }
+
+    footer .logo-footer a img{
+        width: 40px;
+        height: 40px;
+    }
+
+    footer div ul li a{
+        font-size: nth($font-size, 2);
+        font-weight: nth($font-weight, 5);
+    }
+
+    footer .redes-sociales a img{
+        width: 11px;
+        height: 11px;
+    }
+
+    footer div h3{
+        font-size: nth($font-size, 2);
+    }
+
+    footer div h4{
+        font-size: nth($font-size, 1);
+        font-weight: nth($font-weight, 9);
+    }
+}
+
+//! MEDIA QUERY ACERCA DE
+
+@media screen and (max-width:770px){
+    .acerca-de h1{
+        font-size: nth($font-size, 24);
+        font-weight: nth($font-weight, 29);
+    }
+
+    .acerca-de p{
+        font-size: nth($font-size, 13);
+        font-weight: nth($font-weight, 8);
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .acerca-de .parrafo-amamos{
+        font-size: nth($font-size, 17);
+        font-weight: nth($font-weight, 23);
+    }
+
+    .galeria{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .galeria .grid-items{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .galeria .img-9{
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width:450px){
+    .acerca-de h1{
+        font-size: nth($font-size, 19);
+        font-weight: nth($font-weight, 27);
+    }
+
+    .acerca-de p{
+        font-size: nth($font-size, 12);
+        font-weight: nth($font-weight, 8);
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .acerca-de .parrafo-amamos{
+        font-size: nth($font-size, 13);
+        font-weight: nth($font-weight, 21);
+    }
+
+    .galeria{
+        grid-template-columns: 1fr;
+    }
+
+    .galeria .grid-items{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+//! MEDIA QUERY CONTACTO
+
+@media screen and (max-width:770px){
+    .contacto .contacto-formulario h1{
+        font-size: nth($font-size, 24);
+        font-weight: nth($font-weight, 29);
+    }
+
+    .contacto .contacto-formulario div{
+        font-size: nth($font-size, 9);
+        font-weight: nth($font-weight, 7);
+    }
+
+    .contacto .contacto-formulario div h2{
+        font-size: nth($font-size, 19);
+        font-weight: nth($font-weight, 21);
+    }
+}
+
+@media screen and (max-width:450px){
+    .contacto .contacto-formulario h1{
+        font-size: nth($font-size, 21);
+        font-weight: nth($font-weight, 27);
+    }
+
+    .contacto .contacto-formulario div{
+        font-size: nth($font-size, 4);
+        font-weight: nth($font-weight, 5);
+    }
+
+    .contacto .contacto-formulario div h2{
+        font-size: nth($font-size, 13);
+        font-weight: nth($font-weight, 8);
+    }
+}
+
+//! MEDIA QUERY PRODUCTOS
+
+@media screen and (max-width:1029.33px){
+    .productos-completos .productos-listado div .panes{
+        flex-direction: column;
+    }
+
+    .productos-completos .productos-listado div .tortas{
+        flex-direction: column;
+    }
+
+    .productos-completos .productos-listado div .postres{
+        flex-direction: column;
+    }
+
+    .productos-completos .productos-listado div .bebidas{
+        flex-direction: column;
+    }
+
+    .productos-completos .productos-listado div h3{
+        text-align: center;
+    }
+
+    .productos-completos .productos-listado div a{
+        margin-left: 88px;
+    }
+}
+
+@media screen and (max-width:990px){
+    .productos-completos .productos-listado h1{
+        font-size: nth($font-size, 24);
+        font-weight: nth($font-weight, 32);
+    }
+
+    .productos-completos .productos-listado div h2{
+        font-size: nth($font-size, 21);
+        font-weight: nth($font-weight, 27);
+    }
+}
+
+@media screen and (max-width:450px){
+    .productos-completos .productos-listado h1{
+        font-size: nth($font-size, 22);
+        font-weight: nth($font-weight, 30);
+    }
+
+    .productos-completos .productos-listado div h2{
+        font-size: nth($font-size, 19);
+        font-weight: nth($font-weight, 25);
+    }
+
+    .productos-completos .productos-listado div img{
+        width: 280px;
+        height: 170px;
+    }
+
+    .productos-completos .productos-listado div a{
+        margin-left: 80px;
+    }
+}
+
+//! MEDIA QUERY SEDES
+
+@media screen and (max-width:770px){
+    .sedes .sedes-informacion h1{
+        font-size: nth($font-size, 24);
+        font-weight: nth($font-weight, 29);
+    }
+
+    .sedes .sedes-informacion div h2{
+        font-size: nth($font-size, 13);
+        font-weight: nth($font-weight, 33);
+    }
+
+    .sedes .sedes-informacion div p{
+        font-size: nth($font-size, 12);
+        font-weight: nth($font-weight, 25);
+    }
+
+    .sedes .sedes-informacion div iframe{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .sedes .sedes-informacion h1{
+        font-size: nth($font-size, 21);
+        font-weight: nth($font-weight, 27);
+    }
+
+    .sedes .sedes-informacion div p{
+        font-size: nth($font-size, 9);
+        font-weight: nth($font-weight, 21);
+    }
+
+    .sedes .sedes-informacion div iframe{
+        width: 200px;
+        height: 200px;
+    }
+}

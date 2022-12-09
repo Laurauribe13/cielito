@@ -1,0 +1,811 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Merriweather', serif; }
+
+header {
+  background-color: #D5B9B2;
+  width: 100%;
+  height: auto; }
+  header nav .container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    header nav .container-fluid a img {
+      width: 160px;
+      height: 160px;
+      margin-left: 10px;
+      margin-right: 80px; }
+    header nav .container-fluid .navbar-nav ul {
+      list-style: none;
+      display: flex;
+      text-align: center;
+      margin-left: 50px;
+      margin-bottom: 0px;
+      padding-left: 0px; }
+      header nav .container-fluid .navbar-nav ul li {
+        display: inline-block;
+        margin: 10px; }
+        header nav .container-fluid .navbar-nav ul li i {
+          font-size: 30px;
+          font-weight: 30;
+          transition: ease-in; }
+          header nav .container-fluid .navbar-nav ul li i:hover {
+            color: #5c3e79; }
+        header nav .container-fluid .navbar-nav ul li a {
+          text-decoration: none;
+          color: black;
+          font-size: 30px;
+          font-weight: 600;
+          transition: ease-in; }
+          header nav .container-fluid .navbar-nav ul li a:hover {
+            color: #5c3e79; }
+
+.hero {
+  text-align: left;
+  width: 100%;
+  height: 75vh;
+  background-image: url(../img/panes-mensaje.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .hero h1 {
+    color: black;
+    font-size: 80px;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 30px;
+    padding-left: 50px; }
+
+.productos div h2 {
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px; }
+
+.productos div .tarjetas-productos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .productos div .tarjetas-productos div {
+    width: 400px;
+    height: 350px;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 60px 30px 60px;
+    box-shadow: 9px 9px 13px -7px rgba(0, 0, 0, 0.75);
+    -webkit-caja-sombra: 9px 9px 13px -7px rgba(0, 0, 0, 0.75);
+    -moz-caja-sombra: 9px 9px 13px -7px rgba(0, 0, 0, 0.75);
+    transition: 2s; }
+    .productos div .tarjetas-productos div:hover {
+      transform: scale(1.1); }
+    .productos div .tarjetas-productos div a {
+      color: black;
+      text-decoration: none;
+      font-size: 30px;
+      font-weight: 200;
+      font-style: normal; }
+      .productos div .tarjetas-productos div a img {
+        width: 395px;
+        height: 250px; }
+      .productos div .tarjetas-productos div a h3 {
+        display: inline-block;
+        background-color: #D5B9B2;
+        margin-top: 8px;
+        padding: 15px;
+        border-radius: 10px; }
+        .productos div .tarjetas-productos div a h3:active {
+          background-color: #f1d0c7;
+          border: 1px solid black;
+          color: black; }
+
+.recetas div h2 {
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.recetas div .frase-receta {
+  margin-right: 30px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .recetas div .frase-receta p {
+    color: black;
+    font-size: 50px;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center; }
+
+.recetas div .carrusel {
+  width: 560px;
+  height: 380px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .recetas div .carrusel iframe {
+    width: 560px;
+    height: 315px; }
+
+.whatsapp a img {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 1.8%;
+  right: 1%;
+  transition: 2s; }
+  .whatsapp a img:hover {
+    transform: scale(1.1); }
+
+.acerca-de h1 {
+  color: black;
+  font-size: 60px;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px; }
+
+.acerca-de p {
+  color: black;
+  font-size: 25px;
+  font-weight: 150;
+  font-style: normal;
+  text-align: justify;
+  margin-top: 40px;
+  margin-right: 100px;
+  margin-bottom: 15px;
+  margin-left: 100px; }
+
+.acerca-de .parrafo-amamos {
+  color: black;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px; }
+  .acerca-de .parrafo-amamos::after {
+    content: "💕"; }
+
+.galeria {
+  margin: 30px;
+  display: grid;
+  grid-auto-rows: 200px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px; }
+  .galeria div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s; }
+    .galeria div img:hover {
+      transform: scale(1.05); }
+  .galeria .grid-items {
+    box-shadow: 4px 5px 9px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 4px 5px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 5px 9px -1px rgba(0, 0, 0, 0.75); }
+  .galeria .img-1 {
+    grid-row: span 2; }
+  .galeria .img-7 {
+    grid-column: span 2; }
+  .galeria .img-8 {
+    grid-column: span 2; }
+
+.contacto .contacto-formulario h1 {
+  color: black;
+  font-size: 60px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px; }
+
+.contacto .contacto-formulario div {
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center; }
+  .contacto .contacto-formulario div h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px; }
+  .contacto .contacto-formulario div input {
+    margin-top: 10px;
+    margin-bottom: 15px; }
+    .contacto .contacto-formulario div input:focus {
+      border: 2px solid;
+      border-radius: 5px; }
+
+.productos-completos .productos-listado h1 {
+  color: black;
+  font-size: 60px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px; }
+
+.productos-completos .productos-listado div h2 {
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.productos-completos .productos-listado div .panes, .productos-completos .productos-listado div .tortas, .productos-completos .productos-listado div .bebidas {
+  margin-right: 20px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.productos-completos .productos-listado div .postres {
+  margin-bottom: 50px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.productos-completos .productos-listado div img {
+  width: 300px;
+  height: 200px;
+  margin-top: 40px;
+  margin-bottom: 8px;
+  transition: ease-in; }
+  .productos-completos .productos-listado div img:hover {
+    transform: scale(1.02); }
+
+.productos-completos .productos-listado div h3 {
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  margin-bottom: 8px;
+  margin-left: 8px; }
+
+.productos-completos .productos-listado div a {
+  color: black;
+  background-color: #D5B9B2;
+  margin: 20px 8px 20px 8px;
+  padding: 8px 10px 8px 10px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  border-radius: 15px; }
+  .productos-completos .productos-listado div a:active {
+    background-color: #f1d0c7;
+    border: 1px solid black;
+    color: black; }
+
+.sedes .sedes-informacion h1 {
+  color: black;
+  font-size: 60px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px; }
+
+.sedes .sedes-informacion div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  .sedes .sedes-informacion div h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .sedes .sedes-informacion div p {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center; }
+  .sedes .sedes-informacion div iframe {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    transition: 2s; }
+    .sedes .sedes-informacion div iframe:hover {
+      transform: scale(1.05); }
+
+footer {
+  background-color: #D5B9B2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  footer .logo-footer a img {
+    color: black;
+    width: 150px;
+    height: 150px;
+    margin-left: 5px; }
+  footer div ul {
+    text-align: center;
+    margin-bottom: 0px;
+    padding-left: 0px; }
+    footer div ul li {
+      display: inline-block;
+      display: flex;
+      flex-direction: column; }
+      footer div ul li a {
+        color: black;
+        list-style: none;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 300;
+        margin-left: 15px;
+        transition: ease-in; }
+        footer div ul li a:hover {
+          color: #5c3e79; }
+  footer .redes-sociales a img {
+    width: 50px;
+    height: 50px; }
+  footer div h3 {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    margin-right: 5px;
+    padding: 10px; }
+  footer div h4 {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-right: 5px; }
+
+@media screen and (max-width: 1029.33px) {
+  header nav .container-fluid a img {
+    width: 135px;
+    height: 135px; }
+  header nav .container-fluid .navbar-nav ul li i {
+    font-size: 23px;
+    font-weight: 23; }
+  header nav .container-fluid .navbar-nav ul li a {
+    font-size: 26px;
+    font-weight: 540; }
+  .hero h1 {
+    font-size: 70px;
+    font-weight: 600;
+    padding-left: 25px; }
+  .productos div .tarjetas-productos div {
+    width: 300px;
+    height: 250px; }
+  .productos div .tarjetas-productos div a {
+    font-size: 20px;
+    font-weight: 150; }
+  .productos div .tarjetas-productos div a img {
+    width: 295px;
+    height: 170px; }
+  .recetas div .frase-receta p {
+    font-size: 45px;
+    font-weight: 190; }
+  footer .logo-footer a img {
+    width: 130px;
+    height: 130px; }
+  footer div ul li a {
+    font-size: 20px;
+    font-weight: 230;
+    margin-right: 10px; }
+  footer .redes-sociales a img {
+    width: 38px;
+    height: 38px; }
+  footer div h3 {
+    font-size: 20px; }
+  footer div h4 {
+    font-size: 15px;
+    font-weight: 400; } }
+
+@media screen and (max-width: 991.5px) {
+  header nav .container-fluid .navbar-nav ul {
+    flex-direction: column; } }
+
+@media screen and (max-width: 890px) {
+  header nav .container-fluid a img {
+    width: 125px;
+    height: 125px; }
+  header nav .container-fluid .navbar-nav ul li i {
+    font-size: 23px;
+    font-weight: 23; }
+  header nav .container-fluid .navbar-nav ul li a {
+    font-size: 23px;
+    font-weight: 450; }
+  .hero h1 {
+    font-size: 60px;
+    font-weight: 600;
+    padding-left: 30px; }
+  .productos div h2 {
+    font-size: 40px; }
+  .productos div .tarjetas-productos div {
+    width: 270px;
+    height: 250px; }
+  .productos div .tarjetas-productos div a {
+    font-size: 20px;
+    font-weight: 150; }
+  .productos div .tarjetas-productos div a img {
+    width: 265px;
+    height: 170px; }
+  .recetas div h2 {
+    font-size: 40px; }
+  .recetas div .frase-receta p {
+    font-size: 40px;
+    font-weight: 180; }
+  .whatsapp a img {
+    width: 40px;
+    height: 40px;
+    bottom: 1.8%;
+    right: 1%; }
+  footer .logo-footer a img {
+    width: 110px;
+    height: 110px; }
+  footer div ul li a {
+    font-size: 20px;
+    font-weight: 200;
+    margin-right: 10px; }
+  footer .redes-sociales a img {
+    width: 25px;
+    height: 25px; }
+  footer div h3 {
+    font-size: 20px; }
+  footer div h4 {
+    font-size: 14px;
+    font-weight: 350; } }
+
+@media screen and (max-width: 790px) {
+  header nav .container-fluid a img {
+    width: 110px;
+    height: 110px; }
+  header nav .container-fluid .navbar-nav ul li i {
+    font-size: 18px;
+    font-weight: 18; }
+  header nav .container-fluid .navbar-nav ul li a {
+    font-size: 20px;
+    font-weight: 320; }
+  .hero {
+    height: 80vh; }
+  .hero h1 {
+    font-size: 50px;
+    font-weight: 500;
+    padding-left: 15px; }
+  .productos div h2 {
+    font-size: 35px; }
+  .productos div .tarjetas-productos div {
+    width: 180px;
+    height: 230px; }
+  .productos div .tarjetas-productos div a {
+    font-size: 15px;
+    font-weight: 100; }
+  .productos div .tarjetas-productos div a img {
+    width: 175px;
+    height: 150px; }
+  .recetas div h2 {
+    font-size: 35px; }
+  .recetas div .frase-receta p {
+    font-size: 35px;
+    font-weight: 180; }
+  footer .logo-footer a img {
+    width: 90px;
+    height: 90px; }
+  footer div ul li a {
+    font-size: 18px;
+    font-weight: 180;
+    margin-right: 15px; }
+  footer .redes-sociales a img {
+    width: 25px;
+    height: 25px; }
+  footer div h3 {
+    font-size: 18px; }
+  footer div h4 {
+    font-size: 13px;
+    font-weight: 200; } }
+
+@media screen and (max-width: 685px) {
+  header nav .container-fluid a img {
+    width: 90px;
+    height: 90px; }
+  header nav .container-fluid button .navbar-toggler-icon {
+    width: 25px;
+    height: 25px; }
+  header nav .container-fluid .navbar-nav ul li i {
+    font-size: 15px;
+    font-weight: 15; }
+  header nav .container-fluid .navbar-nav ul li a {
+    font-size: 16px;
+    font-weight: 290; }
+  .recetas div .frase-receta p {
+    font-size: 32px;
+    font-weight: 170; }
+  .recetas div .carrusel {
+    width: 530px;
+    height: 350px; }
+  .recetas div .carrusel iframe {
+    width: 530px;
+    height: 285px; }
+  footer .logo-footer a img {
+    width: 70px;
+    height: 70px; }
+  footer div ul li a {
+    font-size: 15px;
+    font-weight: 150; }
+  footer .redes-sociales a img {
+    width: 25px;
+    height: 25px; }
+  footer div h3 {
+    font-size: 15px; }
+  footer div h4 {
+    font-size: 11px;
+    font-weight: 200; } }
+
+@media screen and (max-width: 585px) {
+  .hero h1 {
+    font-size: 40px;
+    font-weight: 450;
+    padding-left: 13px; }
+  .productos div h2 {
+    font-size: 30px; }
+  .recetas div h2 {
+    font-size: 30px; }
+  .recetas div .frase-receta p {
+    font-size: 24px;
+    font-weight: 160; }
+  .recetas div .carrusel {
+    width: 415px;
+    height: 320px; }
+  .recetas div .carrusel iframe {
+    width: 415px;
+    height: 255px; }
+  footer .logo-footer a img {
+    width: 50px;
+    height: 50px; }
+  footer div ul li a {
+    font-size: 13px;
+    font-weight: 120; }
+  footer .redes-sociales a img {
+    width: 23px;
+    height: 23px; }
+  footer div h3 {
+    font-size: 13px; }
+  footer div h4 {
+    font-size: 10px;
+    font-weight: 150; } }
+
+@media screen and (max-width: 450px) {
+  header nav .container-fluid a img {
+    margin-left: 0px; }
+  header nav .container-fluid .navbar-nav ul {
+    margin-left: 10px; }
+  .hero h1 {
+    font-size: 35px;
+    font-weight: 200; }
+  .recetas div .frase-receta p {
+    font-size: 21px;
+    font-weight: 150; }
+  .recetas div .carrusel {
+    width: 380px;
+    height: 320px; }
+  .recetas div .carrusel iframe {
+    width: 380px;
+    height: 255px; }
+  footer div ul li a {
+    font-size: 12px;
+    font-weight: 80; }
+  footer .redes-sociales a img {
+    width: 18px;
+    height: 18px; }
+  footer div h3 {
+    font-size: 12px; }
+  footer div h4 {
+    font-size: 9px;
+    font-weight: 130; } }
+
+@media screen and (max-width: 410px) {
+  .hero h1 {
+    font-size: 30px;
+    font-weight: 150; }
+  .recetas div .frase-receta p {
+    font-size: 18px;
+    font-weight: 140; }
+  .recetas div .carrusel {
+    width: 320px;
+    height: 320px; }
+  .recetas div .carrusel iframe {
+    width: 320px;
+    height: 255px; }
+  footer .logo-footer a img {
+    width: 43px;
+    height: 43px; }
+  footer div ul li a {
+    font-size: 9px;
+    font-weight: 60; }
+  footer .redes-sociales a img {
+    width: 13px;
+    height: 13px; }
+  footer div h3 {
+    font-size: 10px; }
+  footer div h4 {
+    font-size: 8px;
+    font-weight: 110; } }
+
+@media screen and (max-width: 355px) {
+  .hero h1 {
+    font-size: 25px;
+    font-weight: 125; }
+  .recetas div .frase-receta p {
+    font-size: 15.7px;
+    font-weight: 135; }
+  .recetas div .carrusel {
+    width: 290px;
+    height: 300px; }
+  .recetas div .carrusel iframe {
+    width: 290px;
+    height: 235px; }
+  footer .logo-footer a img {
+    width: 40px;
+    height: 40px; }
+  footer div ul li a {
+    font-size: 8px;
+    font-weight: 50; }
+  footer .redes-sociales a img {
+    width: 11px;
+    height: 11px; }
+  footer div h3 {
+    font-size: 8px; }
+  footer div h4 {
+    font-size: 7px;
+    font-weight: 105; } }
+
+@media screen and (max-width: 770px) {
+  .acerca-de h1 {
+    font-size: 50px;
+    font-weight: 450; }
+  .acerca-de p {
+    font-size: 20px;
+    font-weight: 100;
+    margin-right: 50px;
+    margin-left: 50px; }
+  .acerca-de .parrafo-amamos {
+    font-size: 25px;
+    font-weight: 250; }
+  .galeria {
+    grid-template-columns: repeat(2, 1fr); }
+  .galeria .grid-items {
+    grid-column: span 1;
+    grid-row: span 1; }
+  .galeria .img-9 {
+    grid-column: span 2; } }
+
+@media screen and (max-width: 450px) {
+  .acerca-de h1 {
+    font-size: 30px;
+    font-weight: 350; }
+  .acerca-de p {
+    font-size: 18px;
+    font-weight: 100;
+    margin-right: 50px;
+    margin-left: 50px; }
+  .acerca-de .parrafo-amamos {
+    font-size: 20px;
+    font-weight: 200; }
+  .galeria {
+    grid-template-columns: 1fr; }
+  .galeria .grid-items {
+    grid-column: span 1;
+    grid-row: span 1; } }
+
+@media screen and (max-width: 770px) {
+  .contacto .contacto-formulario h1 {
+    font-size: 50px;
+    font-weight: 450; }
+  .contacto .contacto-formulario div {
+    font-size: 15px;
+    font-weight: 80; }
+  .contacto .contacto-formulario div h2 {
+    font-size: 30px;
+    font-weight: 200; } }
+
+@media screen and (max-width: 450px) {
+  .contacto .contacto-formulario h1 {
+    font-size: 35px;
+    font-weight: 350; }
+  .contacto .contacto-formulario div {
+    font-size: 10px;
+    font-weight: 50; }
+  .contacto .contacto-formulario div h2 {
+    font-size: 20px;
+    font-weight: 100; } }
+
+@media screen and (max-width: 1029.33px) {
+  .productos-completos .productos-listado div .panes {
+    flex-direction: column; }
+  .productos-completos .productos-listado div .tortas {
+    flex-direction: column; }
+  .productos-completos .productos-listado div .postres {
+    flex-direction: column; }
+  .productos-completos .productos-listado div .bebidas {
+    flex-direction: column; }
+  .productos-completos .productos-listado div h3 {
+    text-align: center; }
+  .productos-completos .productos-listado div a {
+    margin-left: 88px; } }
+
+@media screen and (max-width: 990px) {
+  .productos-completos .productos-listado h1 {
+    font-size: 50px;
+    font-weight: 550; }
+  .productos-completos .productos-listado div h2 {
+    font-size: 35px;
+    font-weight: 350; } }
+
+@media screen and (max-width: 450px) {
+  .productos-completos .productos-listado h1 {
+    font-size: 40px;
+    font-weight: 500; }
+  .productos-completos .productos-listado div h2 {
+    font-size: 30px;
+    font-weight: 300; }
+  .productos-completos .productos-listado div img {
+    width: 280px;
+    height: 170px; }
+  .productos-completos .productos-listado div a {
+    margin-left: 80px; } }
+
+@media screen and (max-width: 770px) {
+  .sedes .sedes-informacion h1 {
+    font-size: 50px;
+    font-weight: 450; }
+  .sedes .sedes-informacion div h2 {
+    font-size: 20px;
+    font-weight: 600; }
+  .sedes .sedes-informacion div p {
+    font-size: 18px;
+    font-weight: 300; }
+  .sedes .sedes-informacion div iframe {
+    width: 400px;
+    height: 400px; } }
+
+@media screen and (max-width: 450px) {
+  .sedes .sedes-informacion h1 {
+    font-size: 35px;
+    font-weight: 350; }
+  .sedes .sedes-informacion div p {
+    font-size: 15px;
+    font-weight: 200; }
+  .sedes .sedes-informacion div iframe {
+    width: 200px;
+    height: 200px; } }
