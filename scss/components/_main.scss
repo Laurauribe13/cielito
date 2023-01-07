@@ -13,7 +13,7 @@
     background-attachment: fixed;
     h1{
         color: $color-letra;
-        font-size: nth($font-size, 27);
+        font-size: nth($font-size, 26);
         font-weight: nth($font-weight, 34);
         font-style: italic;
         padding-top: 30px;
@@ -25,7 +25,7 @@
     div{
         h2{
             color: $color-letra;
-            font-size: nth($font-size, 24);
+            font-size: nth($font-size, 22);
             font-weight: nth($font-weight, 33);
             font-style: normal;
             text-align: center;
@@ -82,7 +82,7 @@
     div{
         h2{
             color: $color-letra;
-            font-size: nth($font-size, 24);
+            font-size: nth($font-size, 22);
             font-weight: nth($font-weight, 33);
             font-style: normal;
             text-align: center;
@@ -95,7 +95,7 @@
             @include flex (flex, row, space-around, center);
             p{
                 color: $color-letra;
-                font-size: nth($font-size, 24);
+                font-size: nth($font-size, 22);
                 font-weight: nth($font-weight, 21);
                 font-style: normal;
                 text-align: center;
@@ -135,7 +135,7 @@
 .acerca-de{
     h1{
         color: $color-letra;
-        font-size: nth($font-size, 25);
+        font-size: nth($font-size, 22);
         font-weight: nth($font-weight, 33);
         font-style: italic;
         text-align: center;
@@ -144,7 +144,7 @@
     }
     p{
         color: $color-letra;
-        font-size: nth($font-size, 17);
+        font-size: nth($font-size, 15);
         font-weight: nth($font-weight, 16);
         font-style: normal;
         text-align: justify;
@@ -155,7 +155,7 @@
     }
     .parrafo-amamos{
         color: $color-letra;
-        font-size: nth($font-size, 19);
+        font-size: nth($font-size, 17);
         font-weight: nth($font-weight, 25);
         font-style: normal;
         text-align: center;
@@ -206,7 +206,7 @@
     .contacto-formulario{
         h1{
             color: $color-letra;
-            font-size: nth($font-size, 25);
+            font-size: nth($font-size, 22);
             font-weight: nth($font-weight, 33);
             font-style: normal;
             text-align: center;
@@ -221,7 +221,7 @@
             text-align: center;
             h2{
                 color: $color-letra;
-                font-size: nth($font-size, 22);
+                font-size: nth($font-size, 20);
                 font-weight: nth($font-weight, 25);
                 font-style: normal;
                 text-align: center;
@@ -246,7 +246,7 @@
     .productos-listado{
         h1{
             color: $color-letra;
-            font-size: nth($font-size, 25);
+            font-size: nth($font-size, 22);
             font-weight: nth($font-weight, 33);
             font-style: normal;
             text-align: center;
@@ -256,7 +256,7 @@
         div{
             h2{
                 color: $color-letra;
-                font-size: nth($font-size, 22);
+                font-size: nth($font-size, 20);
                 font-weight: nth($font-weight, 28);
                 font-style: italic;
                 text-align: center;
@@ -319,7 +319,7 @@
     .sedes-informacion{
         h1{
             color: $color-letra;
-            font-size: nth($font-size, 25);
+            font-size: nth($font-size, 22);
             font-weight: nth($font-weight, 33);
             font-style: normal;
             text-align: center;
@@ -330,7 +330,7 @@
             @include flex (flex, column, space-between, center);
             h2{
                 color: $color-letra;
-                font-size: nth($font-size, 19);
+                font-size: nth($font-size, 17);
                 font-weight: nth($font-weight, 33);
                 font-style: normal;
                 text-align: center;

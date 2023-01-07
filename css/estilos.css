@@ -20,7 +20,7 @@ header {
       width: 160px;
       height: 160px;
       margin-left: 10px;
-      margin-right: 80px; }
+      margin-right: 120px; }
     header nav .container-fluid .navbar-nav ul {
       list-style: none;
       display: flex;
@@ -32,7 +32,7 @@ header {
         display: inline-block;
         margin: 10px; }
         header nav .container-fluid .navbar-nav ul li i {
-          font-size: 30px;
+          font-size: 25px;
           font-weight: 30;
           transition: ease-in; }
           header nav .container-fluid .navbar-nav ul li i:hover {
@@ -40,7 +40,7 @@ header {
         header nav .container-fluid .navbar-nav ul li a {
           text-decoration: none;
           color: black;
-          font-size: 30px;
+          font-size: 25px;
           font-weight: 600;
           transition: ease-in; }
           header nav .container-fluid .navbar-nav ul li a:hover {
@@ -57,7 +57,7 @@ header {
   background-attachment: fixed; }
   .hero h1 {
     color: black;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 700;
     font-style: italic;
     padding-top: 30px;
@@ -65,7 +65,7 @@ header {
 
 .productos div h2 {
   color: black;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   font-style: normal;
   text-align: center;
@@ -111,7 +111,7 @@ header {
 
 .recetas div h2 {
   color: black;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   font-style: normal;
   text-align: center;
@@ -127,7 +127,7 @@ header {
   align-items: center; }
   .recetas div .frase-receta p {
     color: black;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 200;
     font-style: normal;
     text-align: center; }
@@ -156,7 +156,7 @@ header {
 
 .acerca-de h1 {
   color: black;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
   font-style: italic;
   text-align: center;
@@ -165,7 +165,7 @@ header {
 
 .acerca-de p {
   color: black;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 150;
   font-style: normal;
   text-align: justify;
@@ -176,7 +176,7 @@ header {
 
 .acerca-de .parrafo-amamos {
   color: black;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
   font-style: normal;
   text-align: center;
@@ -211,7 +211,7 @@ header {
 
 .contacto .contacto-formulario h1 {
   color: black;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
   font-style: normal;
   text-align: center;
@@ -226,7 +226,7 @@ header {
   text-align: center; }
   .contacto .contacto-formulario div h2 {
     color: black;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 300;
     font-style: normal;
     text-align: center;
@@ -241,7 +241,7 @@ header {
 
 .productos-completos .productos-listado h1 {
   color: black;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
   font-style: normal;
   text-align: center;
@@ -250,7 +250,7 @@ header {
 
 .productos-completos .productos-listado div h2 {
   color: black;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 400;
   font-style: italic;
   text-align: center;
@@ -309,7 +309,7 @@ header {
 
 .sedes .sedes-informacion h1 {
   color: black;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
   font-style: normal;
   text-align: center;
@@ -323,7 +323,7 @@ header {
   align-items: center; }
   .sedes .sedes-informacion div h2 {
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     font-style: normal;
     text-align: center;
@@ -365,7 +365,7 @@ footer {
         color: black;
         list-style: none;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 300;
         margin-left: 15px;
         transition: ease-in; }
@@ -376,7 +376,7 @@ footer {
     height: 50px; }
   footer div h3 {
     color: black;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 600;
     font-style: normal;
     text-align: center;
@@ -398,10 +398,10 @@ footer {
     font-size: 23px;
     font-weight: 23; }
   header nav .container-fluid .navbar-nav ul li a {
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 540; }
   .hero h1 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 600;
     padding-left: 25px; }
   .productos div .tarjetas-productos div {
@@ -414,7 +414,7 @@ footer {
     width: 295px;
     height: 170px; }
   .recetas div .frase-receta p {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 190; }
   footer .logo-footer a img {
     width: 130px;
@@ -441,17 +441,17 @@ footer {
     width: 125px;
     height: 125px; }
   header nav .container-fluid .navbar-nav ul li i {
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 23; }
   header nav .container-fluid .navbar-nav ul li a {
-    font-size: 23px;
-    font-weight: 450; }
+    font-size: 21px;
+    font-weight: 500; }
   .hero h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     padding-left: 30px; }
   .productos div h2 {
-    font-size: 40px; }
+    font-size: 35px; }
   .productos div .tarjetas-productos div {
     width: 270px;
     height: 250px; }
@@ -462,9 +462,9 @@ footer {
     width: 265px;
     height: 170px; }
   .recetas div h2 {
-    font-size: 40px; }
+    font-size: 35px; }
   .recetas div .frase-receta p {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 180; }
   .whatsapp a img {
     width: 40px;
@@ -501,10 +501,10 @@ footer {
     height: 80vh; }
   .hero h1 {
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 550;
     padding-left: 15px; }
   .productos div h2 {
-    font-size: 35px; }
+    font-size: 32px; }
   .productos div .tarjetas-productos div {
     width: 180px;
     height: 230px; }
@@ -515,10 +515,10 @@ footer {
     width: 175px;
     height: 150px; }
   .recetas div h2 {
-    font-size: 35px; }
+    font-size: 32px; }
   .recetas div .frase-receta p {
-    font-size: 35px;
-    font-weight: 180; }
+    font-size: 30px;
+    font-weight: 170; }
   footer .logo-footer a img {
     width: 90px;
     height: 90px; }
@@ -549,8 +549,8 @@ footer {
     font-size: 16px;
     font-weight: 290; }
   .recetas div .frase-receta p {
-    font-size: 32px;
-    font-weight: 170; }
+    font-size: 26px;
+    font-weight: 160; }
   .recetas div .carrusel {
     width: 530px;
     height: 350px; }
@@ -575,15 +575,15 @@ footer {
 @media screen and (max-width: 585px) {
   .hero h1 {
     font-size: 40px;
-    font-weight: 450;
+    font-weight: 540;
     padding-left: 13px; }
   .productos div h2 {
-    font-size: 30px; }
+    font-size: 25px; }
   .recetas div h2 {
-    font-size: 30px; }
+    font-size: 25px; }
   .recetas div .frase-receta p {
-    font-size: 24px;
-    font-weight: 160; }
+    font-size: 23px;
+    font-weight: 150; }
   .recetas div .carrusel {
     width: 415px;
     height: 320px; }
@@ -612,10 +612,10 @@ footer {
     margin-left: 10px; }
   .hero h1 {
     font-size: 35px;
-    font-weight: 200; }
+    font-weight: 450; }
   .recetas div .frase-receta p {
     font-size: 21px;
-    font-weight: 150; }
+    font-weight: 140; }
   .recetas div .carrusel {
     width: 380px;
     height: 320px; }
@@ -637,7 +637,7 @@ footer {
 @media screen and (max-width: 410px) {
   .hero h1 {
     font-size: 30px;
-    font-weight: 150; }
+    font-weight: 400; }
   .recetas div .frase-receta p {
     font-size: 18px;
     font-weight: 140; }
@@ -664,8 +664,8 @@ footer {
 
 @media screen and (max-width: 355px) {
   .hero h1 {
-    font-size: 25px;
-    font-weight: 125; }
+    font-size: 26px;
+    font-weight: 350; }
   .recetas div .frase-receta p {
     font-size: 15.7px;
     font-weight: 135; }
@@ -692,15 +692,15 @@ footer {
 
 @media screen and (max-width: 770px) {
   .acerca-de h1 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 450; }
   .acerca-de p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
     margin-right: 50px;
     margin-left: 50px; }
   .acerca-de .parrafo-amamos {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 250; }
   .galeria {
     grid-template-columns: repeat(2, 1fr); }
@@ -712,11 +712,11 @@ footer {
 
 @media screen and (max-width: 450px) {
   .acerca-de h1 {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 350; }
   .acerca-de p {
-    font-size: 18px;
-    font-weight: 100;
+    font-size: 16px;
+    font-weight: 80;
     margin-right: 50px;
     margin-left: 50px; }
   .acerca-de .parrafo-amamos {
@@ -730,18 +730,18 @@ footer {
 
 @media screen and (max-width: 770px) {
   .contacto .contacto-formulario h1 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 450; }
   .contacto .contacto-formulario div {
     font-size: 15px;
     font-weight: 80; }
   .contacto .contacto-formulario div h2 {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 200; } }
 
 @media screen and (max-width: 450px) {
   .contacto .contacto-formulario h1 {
-    font-size: 35px;
+    font-size: 23px;
     font-weight: 350; }
   .contacto .contacto-formulario div {
     font-size: 10px;
@@ -752,13 +752,21 @@ footer {
 
 @media screen and (max-width: 1029.33px) {
   .productos-completos .productos-listado div .panes {
-    flex-direction: column; }
+    margin-right: 100px;
+    margin-left: 100px;
+    flex-wrap: wrap; }
   .productos-completos .productos-listado div .tortas {
-    flex-direction: column; }
+    margin-right: 100px;
+    margin-left: 100px;
+    flex-wrap: wrap; }
   .productos-completos .productos-listado div .postres {
-    flex-direction: column; }
+    margin-right: 100px;
+    margin-left: 100px;
+    flex-wrap: wrap; }
   .productos-completos .productos-listado div .bebidas {
-    flex-direction: column; }
+    margin-right: 100px;
+    margin-left: 100px;
+    flex-wrap: wrap; }
   .productos-completos .productos-listado div h3 {
     text-align: center; }
   .productos-completos .productos-listado div a {
@@ -766,34 +774,90 @@ footer {
 
 @media screen and (max-width: 990px) {
   .productos-completos .productos-listado h1 {
-    font-size: 50px;
-    font-weight: 550; }
+    font-size: 40px;
+    font-weight: 600; }
   .productos-completos .productos-listado div h2 {
-    font-size: 35px;
-    font-weight: 350; } }
+    font-size: 32px;
+    font-weight: 540; } }
+
+@media screen and (max-width: 890px) {
+  .productos-completos .productos-listado div .panes {
+    margin-right: 50px;
+    margin-left: 50px; }
+  .productos-completos .productos-listado div .tortas {
+    margin-right: 50px;
+    margin-left: 50px; }
+  .productos-completos .productos-listado div .postres {
+    margin-right: 50px;
+    margin-left: 50px; }
+  .productos-completos .productos-listado div .bebidas {
+    margin-right: 50px;
+    margin-left: 50px; } }
+
+@media screen and (max-width: 760px) {
+  .productos-completos .productos-listado h1 {
+    font-size: 30px;
+    font-weight: 540; }
+  .productos-completos .productos-listado div h2 {
+    font-size: 24px;
+    font-weight: 540; }
+  .productos-completos .productos-listado div .panes {
+    margin-right: 30px;
+    margin-left: 30px; }
+  .productos-completos .productos-listado div .tortas {
+    margin-right: 30px;
+    margin-left: 30px; }
+  .productos-completos .productos-listado div .postres {
+    margin-right: 30px;
+    margin-left: 30px; }
+  .productos-completos .productos-listado div .bebidas {
+    margin-right: 30px;
+    margin-left: 30px; }
+  .productos-completos .productos-listado div h3 {
+    font-size: 21px;
+    font-weight: 540; }
+  .productos-completos .productos-listado div a {
+    font-size: 21px;
+    font-weight: 540;
+    margin-left: 100px; } }
+
+@media screen and (max-width: 680px) {
+  .productos-completos .productos-listado div .panes {
+    flex-direction: column; }
+  .productos-completos .productos-listado div .tortas {
+    flex-direction: column; }
+  .productos-completos .productos-listado div .postres {
+    flex-direction: column; }
+  .productos-completos .productos-listado div .bebidas {
+    flex-direction: column; } }
 
 @media screen and (max-width: 450px) {
   .productos-completos .productos-listado h1 {
-    font-size: 40px;
-    font-weight: 500; }
+    font-size: 26px;
+    font-weight: 540; }
   .productos-completos .productos-listado div h2 {
-    font-size: 30px;
-    font-weight: 300; }
+    font-size: 23px;
+    font-weight: 540; }
   .productos-completos .productos-listado div img {
-    width: 280px;
-    height: 170px; }
+    width: 260px;
+    height: 150px; }
+  .productos-completos .productos-listado div h3 {
+    font-size: 20px;
+    font-weight: 540; }
   .productos-completos .productos-listado div a {
+    font-size: 20px;
+    font-weight: 540;
     margin-left: 80px; } }
 
 @media screen and (max-width: 770px) {
   .sedes .sedes-informacion h1 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 450; }
   .sedes .sedes-informacion div h2 {
     font-size: 20px;
-    font-weight: 600; }
+    font-weight: 550; }
   .sedes .sedes-informacion div p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300; }
   .sedes .sedes-informacion div iframe {
     width: 400px;
@@ -801,10 +865,13 @@ footer {
 
 @media screen and (max-width: 450px) {
   .sedes .sedes-informacion h1 {
-    font-size: 35px;
-    font-weight: 350; }
+    font-size: 24px;
+    font-weight: 450; }
+  .sedes .sedes-informacion div h2 {
+    font-size: 16px;
+    font-weight: 540; }
   .sedes .sedes-informacion div p {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 200; }
   .sedes .sedes-informacion div iframe {
     width: 200px;

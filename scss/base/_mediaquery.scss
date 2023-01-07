@@ -14,12 +14,12 @@
     }
 
     header nav .container-fluid .navbar-nav ul li a{
-        font-size: nth($font-size, 18);
+        font-size: nth($font-size, 15);
         font-weight: nth($font-weight, 31);
     }
 
     .hero h1{
-        font-size: nth($font-size, 26);
+        font-size: nth($font-size, 25);
         font-weight: nth($font-weight, 33);
         padding-left: 25px;
     }
@@ -40,7 +40,7 @@
     }
 
     .recetas div .frase-receta p{
-        font-size: nth($font-size, 23);
+        font-size: nth($font-size, 21);
         font-weight: nth($font-weight, 20);
     }
 
@@ -83,23 +83,23 @@
     }
 
     header nav .container-fluid .navbar-nav ul li i{
-        font-size: nth($font-size, 15);
+        font-size: nth($font-size, 14);
         font-weight: nth($font-weight, 3);
     }
 
     header nav .container-fluid .navbar-nav ul li a{
-        font-size: nth($font-size, 15);
-        font-weight: nth($font-weight, 29);
+        font-size: nth($font-size, 14);
+        font-weight: nth($font-weight, 30);
     }
 
     .hero h1{
-        font-size: nth($font-size, 25);
+        font-size: nth($font-size, 24);
         font-weight: nth($font-weight, 33);
         padding-left: 30px;
     }
 
     .productos div h2{
-        font-size: nth($font-size, 22);
+        font-size: nth($font-size, 21);
     }
 
     .productos div .tarjetas-productos div{
@@ -118,11 +118,11 @@
     }
 
     .recetas div h2{
-        font-size: nth($font-size, 22);
+        font-size: nth($font-size, 21);
     }
 
     .recetas div .frase-receta p{
-        font-size: nth($font-size, 22);
+        font-size: nth($font-size, 20);
         font-weight: nth($font-weight, 19);
     }
 
@@ -181,12 +181,12 @@
 
     .hero h1{
         font-size: nth($font-size, 24);
-        font-weight: nth($font-weight, 30);
+        font-weight: nth($font-weight, 32);
         padding-left: 15px;
     }
 
     .productos div h2{
-        font-size: nth($font-size, 21);
+        font-size: nth($font-size, 20);
     }
 
     .productos div .tarjetas-productos div{
@@ -205,12 +205,12 @@
     }
 
     .recetas div h2{
-        font-size: nth($font-size, 21);
+        font-size: nth($font-size, 20);
     }
 
     .recetas div .frase-receta p{
-        font-size: nth($font-size, 21);
-        font-weight: nth($font-weight, 19);
+        font-size: nth($font-size, 19);
+        font-weight: nth($font-weight, 18);
     }
 
     footer .logo-footer a img{
@@ -261,8 +261,8 @@
     }
 
     .recetas div .frase-receta p{
-        font-size: nth($font-size, 20);
-        font-weight: nth($font-weight, 18);
+        font-size: nth($font-size, 18);
+        font-weight: nth($font-weight, 17);
     }
 
     .recetas div .carrusel{
@@ -303,21 +303,21 @@
 @media screen and (max-width:585px){
     .hero h1{
         font-size: nth($font-size, 22);
-        font-weight: nth($font-weight, 29);
+        font-weight: nth($font-weight, 31);
         padding-left: 13px;
     }
 
     .productos div h2{
-        font-size: nth($font-size, 19);
+        font-size: nth($font-size, 17);
     }
 
     .recetas div h2{
-        font-size: nth($font-size, 19);
+        font-size: nth($font-size, 17);
     }
 
     .recetas div .frase-receta p{
-        font-size: nth($font-size, 16);
-        font-weight: nth($font-weight, 17);
+        font-size: nth($font-size, 15);
+        font-weight: nth($font-weight, 16);
     }
 
     .recetas div .carrusel{
@@ -366,12 +366,12 @@
 
     .hero h1{
         font-size: nth($font-size, 21);
-        font-weight: nth($font-weight, 21);
+        font-weight: nth($font-weight, 29);
     }
 
     .recetas div .frase-receta p{
         font-size: nth($font-size, 14);
-        font-weight: nth($font-weight, 16);
+        font-weight: nth($font-weight, 15);
     }
 
     .recetas div .carrusel{
@@ -407,7 +407,7 @@
 @media screen and (max-width:410px){
     .hero h1{
         font-size: nth($font-size, 19);
-        font-weight: nth($font-weight, 16);
+        font-weight: nth($font-weight, 28);
     }
 
     .recetas div .frase-receta p{
@@ -452,8 +452,8 @@
 
 @media screen and (max-width:355px){
     .hero h1{
-        font-size: nth($font-size, 17);
-        font-weight: nth($font-weight, 12);
+        font-size: nth($font-size, 18);
+        font-weight: nth($font-weight, 27);
     }
 
     .recetas div .frase-receta p{
@@ -500,19 +500,19 @@
 
 @media screen and (max-width:770px){
     .acerca-de h1{
-        font-size: nth($font-size, 24);
+        font-size: nth($font-size, 19);
         font-weight: nth($font-weight, 29);
     }
 
     .acerca-de p{
-        font-size: nth($font-size, 13);
+        font-size: nth($font-size, 12);
         font-weight: nth($font-weight, 8);
         margin-right: 50px;
         margin-left: 50px;
     }
 
     .acerca-de .parrafo-amamos{
-        font-size: nth($font-size, 17);
+        font-size: nth($font-size, 15);
         font-weight: nth($font-weight, 23);
     }
 
@@ -532,13 +532,13 @@
 
 @media screen and (max-width:450px){
     .acerca-de h1{
-        font-size: nth($font-size, 19);
+        font-size: nth($font-size, 18);
         font-weight: nth($font-weight, 27);
     }
 
     .acerca-de p{
-        font-size: nth($font-size, 12);
-        font-weight: nth($font-weight, 8);
+        font-size: nth($font-size, 11);
+        font-weight: nth($font-weight, 7);
         margin-right: 50px;
         margin-left: 50px;
     }
@@ -562,7 +562,7 @@
 
 @media screen and (max-width:770px){
     .contacto .contacto-formulario h1{
-        font-size: nth($font-size, 24);
+        font-size: nth($font-size, 19);
         font-weight: nth($font-weight, 29);
     }
 
@@ -572,14 +572,14 @@
     }
 
     .contacto .contacto-formulario div h2{
-        font-size: nth($font-size, 19);
+        font-size: nth($font-size, 18);
         font-weight: nth($font-weight, 21);
     }
 }
 
 @media screen and (max-width:450px){
     .contacto .contacto-formulario h1{
-        font-size: nth($font-size, 21);
+        font-size: nth($font-size, 15);
         font-weight: nth($font-weight, 27);
     }
 
@@ -598,6 +598,117 @@
 
 @media screen and (max-width:1029.33px){
     .productos-completos .productos-listado div .panes{
+        margin-right: 100px;
+        margin-left: 100px;
+        flex-wrap: wrap;
+    }
+
+    .productos-completos .productos-listado div .tortas{
+        margin-right: 100px;
+        margin-left: 100px;
+        flex-wrap: wrap;
+    }
+
+    .productos-completos .productos-listado div .postres{
+        margin-right: 100px;
+        margin-left: 100px;
+        flex-wrap: wrap;
+    }
+
+    .productos-completos .productos-listado div .bebidas{
+        margin-right: 100px;
+        margin-left: 100px;
+        flex-wrap: wrap;
+    }
+
+    .productos-completos .productos-listado div h3{
+        text-align: center;
+    }
+
+    .productos-completos .productos-listado div a{
+        margin-left: 88px;
+    }
+}
+
+@media screen and (max-width:990px){
+    .productos-completos .productos-listado h1{
+        font-size: nth($font-size, 22);
+        font-weight: nth($font-weight, 33);
+    }
+
+    .productos-completos .productos-listado div h2{
+        font-size: nth($font-size, 20);
+        font-weight: nth($font-weight, 31);
+    }
+}
+
+@media screen and (max-width:890px){
+    .productos-completos .productos-listado div .panes{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .productos-completos .productos-listado div .tortas{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .productos-completos .productos-listado div .postres{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .productos-completos .productos-listado div .bebidas{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:760px){
+    .productos-completos .productos-listado h1{
+        font-size: nth($font-size, 19);
+        font-weight: nth($font-weight, 31);
+    }
+
+    .productos-completos .productos-listado div h2{
+        font-size: nth($font-size, 16);
+        font-weight: nth($font-weight, 31);
+    }
+
+    .productos-completos .productos-listado div .panes{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .productos-completos .productos-listado div .tortas{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .productos-completos .productos-listado div .postres{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .productos-completos .productos-listado div .bebidas{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .productos-completos .productos-listado div h3{
+        font-size: nth($font-size, 14);
+        font-weight: nth($font-weight, 31);
+    }
+
+    .productos-completos .productos-listado div a{
+        font-size: nth($font-size, 14);
+        font-weight: nth($font-weight, 31);
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:680px){
+    .productos-completos .productos-listado div .panes{
         flex-direction: column;
     }
 
@@ -612,45 +723,32 @@
     .productos-completos .productos-listado div .bebidas{
         flex-direction: column;
     }
-
-    .productos-completos .productos-listado div h3{
-        text-align: center;
-    }
-
-    .productos-completos .productos-listado div a{
-        margin-left: 88px;
-    }
-}
-
-@media screen and (max-width:990px){
-    .productos-completos .productos-listado h1{
-        font-size: nth($font-size, 24);
-        font-weight: nth($font-weight, 32);
-    }
-
-    .productos-completos .productos-listado div h2{
-        font-size: nth($font-size, 21);
-        font-weight: nth($font-weight, 27);
-    }
 }
 
 @media screen and (max-width:450px){
     .productos-completos .productos-listado h1{
-        font-size: nth($font-size, 22);
-        font-weight: nth($font-weight, 30);
+        font-size: nth($font-size, 18);
+        font-weight: nth($font-weight, 31);
     }
 
     .productos-completos .productos-listado div h2{
-        font-size: nth($font-size, 19);
-        font-weight: nth($font-weight, 25);
+        font-size: nth($font-size, 15);
+        font-weight: nth($font-weight, 31);
     }
 
     .productos-completos .productos-listado div img{
-        width: 280px;
-        height: 170px;
+        width: 260px;
+        height: 150px;
+    }
+
+    .productos-completos .productos-listado div h3{
+        font-size: nth($font-size, 13);
+        font-weight: nth($font-weight, 31);
     }
 
     .productos-completos .productos-listado div a{
+        font-size: nth($font-size, 13);
+        font-weight: nth($font-weight, 31);
         margin-left: 80px;
     }
 }
@@ -659,17 +757,17 @@
 
 @media screen and (max-width:770px){
     .sedes .sedes-informacion h1{
-        font-size: nth($font-size, 24);
+        font-size: nth($font-size, 19);
         font-weight: nth($font-weight, 29);
     }
 
     .sedes .sedes-informacion div h2{
         font-size: nth($font-size, 13);
-        font-weight: nth($font-weight, 33);
+        font-weight: nth($font-weight, 32);
     }
 
     .sedes .sedes-informacion div p{
-        font-size: nth($font-size, 12);
+        font-size: nth($font-size, 11);
         font-weight: nth($font-weight, 25);
     }
 
@@ -681,12 +779,17 @@
 
 @media screen and (max-width:450px){
     .sedes .sedes-informacion h1{
-        font-size: nth($font-size, 21);
-        font-weight: nth($font-weight, 27);
+        font-size: nth($font-size, 16);
+        font-weight: nth($font-weight, 29);
+    }
+
+    .sedes .sedes-informacion div h2{
+        font-size: nth($font-size, 11);
+        font-weight: nth($font-weight, 31);
     }
 
     .sedes .sedes-informacion div p{
-        font-size: nth($font-size, 9);
+        font-size: nth($font-size, 8);
         font-weight: nth($font-weight, 21);
     }
 
